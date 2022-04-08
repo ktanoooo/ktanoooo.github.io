@@ -5,6 +5,12 @@
   "repository": "git@github.com:ktanoooo/ktanoooo.github.io.git",
   "author": "ktanoooo <ktanoooo1112@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
     "next": "^12.1.4",
     "react": "^18.0.0",
