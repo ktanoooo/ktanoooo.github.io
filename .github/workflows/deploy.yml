@@ -13,7 +13,7 @@ jobs:
       - name: Use Node.js ${{matrix.node-versions}}
         uses: actions/setup-node@v1
         with:
-          node-verson: ${{matrix.node-versions}}
+          node-version: ${{matrix.node-versions}}
       - name: install
         run: yarn install --frozen-lockfile
       - name: build
